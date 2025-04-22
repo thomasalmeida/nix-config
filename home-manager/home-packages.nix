@@ -7,10 +7,11 @@
     # Desktop apps
     brave
     firefox
+    gedit
     imv
+    kitty
     mpv
     obsidian
-    pavucontrol
     zed
 
     # CLI utils
@@ -18,7 +19,9 @@
     bottom
     brightnessctl
     cliphist
+    curl
     dunst
+    fish
     ffmpeg
     ffmpegthumbnailer
     fzf
@@ -26,9 +29,9 @@
     grimblast
     htop
     hyprpicker
-    kitty
     mediainfo
     microfetch
+    pavucontrol
     playerctl
     ripgrep
     silicon
@@ -41,23 +44,28 @@
     wtype
     zip
 
-    # Coding stuff
+    # Coding tools
+    docker-cli
+    docker-compose
     lazydocker
-    openjdk23
     go_1_22
     nodejs_23
     python311
     ruby_3_4
     rustc
+    vim
+    neovim
+    zellij
 
-    # WM stuff
-    libsForQt5.xwaylandvideobridge
-    libnotify
-    xdg-desktop-portal-gtk
-    xdg-desktop-portal-hyprland
-
-    # Other
+    # Fonts & theming
     bemoji
     nix-prefetch-scripts
+    powerline-fonts
+    powerline-symbols
+    (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
+
+    # VMs and emulation
+    gcc
+    qemu
   ];
 }

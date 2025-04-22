@@ -5,6 +5,7 @@
     ./dunst.nix
     ./chromium.nix
     ./eza.nix
+    ./firefox.nix
     ./fish.nix
     ./git.nix
     ./hyprland
